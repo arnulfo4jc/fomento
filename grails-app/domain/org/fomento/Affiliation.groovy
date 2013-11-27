@@ -33,8 +33,6 @@ class Affiliation implements Serializable {
         version false
     }
 
-    String toString() {
-        fee
-    }
+    String toString() { fee }
 
 }

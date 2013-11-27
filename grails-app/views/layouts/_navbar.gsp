@@ -1,6 +1,6 @@
 <ul class="nav nav-tabs">
   	<li class="${(actionName == 'show') ? 'active' : ''}">
-  		<g:link controller="partner" action="show" id="${params?.id}">Socio</g:link>
+  		<g:link controller="partner" action="show" id="${params?.id}">${partner}</g:link>
   	</li>
 	<li class="${(actionName == 'report') ? 'active' : ''}">
 		<g:link controller="partner" action="report" id="${params?.id}" params="[period:fomento.currentYear()]">
